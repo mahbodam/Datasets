@@ -1,0 +1,46 @@
+{
+  "source": "C:\\Dataset\\datasets\\chatml_tier1",
+  "target": "C:\\Dataset\\training\\dataset-for-train\\03- chatml_tier1",
+  "source_files": {
+    "train": [
+      "C:\\Dataset\\datasets\\chatml_tier1\\it_director\\train.jsonl",
+      "C:\\Dataset\\datasets\\chatml_tier1\\legal_counsel\\train.jsonl",
+      "C:\\Dataset\\datasets\\chatml_tier1\\quality_manager\\train.jsonl",
+      "C:\\Dataset\\datasets\\chatml_tier1\\risk_manager\\train.jsonl",
+      "C:\\Dataset\\datasets\\chatml_tier1\\sales_director\\train.jsonl",
+      "C:\\Dataset\\datasets\\chatml_tier1\\supply_chain_director\\train.jsonl"
+    ],
+    "validation": [
+      "C:\\Dataset\\datasets\\chatml_tier1\\it_director\\validation.jsonl",
+      "C:\\Dataset\\datasets\\chatml_tier1\\legal_counsel\\validation.jsonl",
+      "C:\\Dataset\\datasets\\chatml_tier1\\quality_manager\\validation.jsonl",
+      "C:\\Dataset\\datasets\\chatml_tier1\\risk_manager\\validation.jsonl",
+      "C:\\Dataset\\datasets\\chatml_tier1\\sales_director\\validation.jsonl",
+      "C:\\Dataset\\datasets\\chatml_tier1\\supply_chain_director\\validation.jsonl"
+    ],
+    "test": [
+      "C:\\Dataset\\datasets\\chatml_tier1\\it_director\\test.jsonl",
+      "C:\\Dataset\\datasets\\chatml_tier1\\legal_counsel\\test.jsonl",
+      "C:\\Dataset\\datasets\\chatml_tier1\\quality_manager\\test.jsonl",
+      "C:\\Dataset\\datasets\\chatml_tier1\\risk_manager\\test.jsonl",
+      "C:\\Dataset\\datasets\\chatml_tier1\\sales_director\\test.jsonl",
+      "C:\\Dataset\\datasets\\chatml_tier1\\supply_chain_director\\test.jsonl"
+    ]
+  },
+  "input": {
+    "train": 4757,
+    "validation": 592,
+    "test": 651
+  },
+  "kept": {
+    "train": 4757,
+    "validation": 592,
+    "test": 651
+  },
+  "duplicates_removed": {
+    "train": 0,
+    "validation": 0,
+    "test": 0
+  },
+  "dedup_mode": "full"
+}

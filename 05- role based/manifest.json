@@ -1,0 +1,58 @@
+{
+  "source": "C:\\Dataset\\datasets\\role based",
+  "target": "C:\\Dataset\\training\\dataset-for-train\\05- role based",
+  "source_files": {
+    "train": [
+      "C:\\Dataset\\datasets\\role based\\ceo\\train.jsonl",
+      "C:\\Dataset\\datasets\\role based\\cfo\\train.jsonl",
+      "C:\\Dataset\\datasets\\role based\\commercial_director\\train.jsonl",
+      "C:\\Dataset\\datasets\\role based\\hr_manager\\train.jsonl",
+      "C:\\Dataset\\datasets\\role based\\hse_manager\\train.jsonl",
+      "C:\\Dataset\\datasets\\role based\\maintenance_manager\\train.jsonl",
+      "C:\\Dataset\\datasets\\role based\\mining_production_manager\\train.jsonl",
+      "C:\\Dataset\\datasets\\role based\\processing_manager\\train.jsonl",
+      "C:\\Dataset\\datasets\\role based\\procurement_manager\\train.jsonl",
+      "C:\\Dataset\\datasets\\role based\\warehouse_manager\\train.jsonl"
+    ],
+    "validation": [
+      "C:\\Dataset\\datasets\\role based\\ceo\\validation.jsonl",
+      "C:\\Dataset\\datasets\\role based\\cfo\\validation.jsonl",
+      "C:\\Dataset\\datasets\\role based\\commercial_director\\validation.jsonl",
+      "C:\\Dataset\\datasets\\role based\\hr_manager\\validation.jsonl",
+      "C:\\Dataset\\datasets\\role based\\hse_manager\\validation.jsonl",
+      "C:\\Dataset\\datasets\\role based\\maintenance_manager\\validation.jsonl",
+      "C:\\Dataset\\datasets\\role based\\mining_production_manager\\validation.jsonl",
+      "C:\\Dataset\\datasets\\role based\\processing_manager\\validation.jsonl",
+      "C:\\Dataset\\datasets\\role based\\procurement_manager\\validation.jsonl",
+      "C:\\Dataset\\datasets\\role based\\warehouse_manager\\validation.jsonl"
+    ],
+    "test": [
+      "C:\\Dataset\\datasets\\role based\\ceo\\test.jsonl",
+      "C:\\Dataset\\datasets\\role based\\cfo\\test.jsonl",
+      "C:\\Dataset\\datasets\\role based\\commercial_director\\test.jsonl",
+      "C:\\Dataset\\datasets\\role based\\hr_manager\\test.jsonl",
+      "C:\\Dataset\\datasets\\role based\\hse_manager\\test.jsonl",
+      "C:\\Dataset\\datasets\\role based\\maintenance_manager\\test.jsonl",
+      "C:\\Dataset\\datasets\\role based\\mining_production_manager\\test.jsonl",
+      "C:\\Dataset\\datasets\\role based\\processing_manager\\test.jsonl",
+      "C:\\Dataset\\datasets\\role based\\procurement_manager\\test.jsonl",
+      "C:\\Dataset\\datasets\\role based\\warehouse_manager\\test.jsonl"
+    ]
+  },
+  "input": {
+    "train": 8000,
+    "validation": 1000,
+    "test": 1000
+  },
+  "kept": {
+    "train": 0,
+    "validation": 0,
+    "test": 0
+  },
+  "duplicates_removed": {
+    "train": 8000,
+    "validation": 1000,
+    "test": 1000
+  },
+  "dedup_mode": "request"
+}

@@ -1,0 +1,31 @@
+{
+  "source": "C:\\Dataset\\datasets\\industries",
+  "target": "C:\\Dataset\\training\\dataset-for-train\\04- industries",
+  "source_files": {
+    "train": [
+      "C:\\Dataset\\datasets\\industries\\retail_chain\\inventory_planning_manager\\all_train.jsonl",
+      "C:\\Dataset\\datasets\\industries\\retail_chain\\retail_buying_manager\\all_train.jsonl",
+      "C:\\Dataset\\datasets\\industries\\retail_chain\\retail_cfo\\all_train.jsonl",
+      "C:\\Dataset\\datasets\\industries\\retail_chain\\retail_logistics_manager\\all_train.jsonl",
+      "C:\\Dataset\\datasets\\industries\\retail_chain\\store_operations_manager\\all_train.jsonl"
+    ],
+    "validation": [],
+    "test": []
+  },
+  "input": {
+    "train": 5000,
+    "validation": 0,
+    "test": 0
+  },
+  "kept": {
+    "train": 5000,
+    "validation": 0,
+    "test": 0
+  },
+  "duplicates_removed": {
+    "train": 0,
+    "validation": 0,
+    "test": 0
+  },
+  "dedup_mode": "full"
+}

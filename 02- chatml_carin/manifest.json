@@ -1,0 +1,31 @@
+{
+  "source": "C:\\Dataset\\datasets\\chatml_carin",
+  "target": "C:\\Dataset\\training\\dataset-for-train\\02- chatml_carin",
+  "source_files": {
+    "train": [
+      "C:\\Dataset\\datasets\\chatml_carin\\train.jsonl"
+    ],
+    "validation": [
+      "C:\\Dataset\\datasets\\chatml_carin\\validation.jsonl"
+    ],
+    "test": [
+      "C:\\Dataset\\datasets\\chatml_carin\\test.jsonl"
+    ]
+  },
+  "input": {
+    "train": 16078,
+    "validation": 1927,
+    "test": 2001
+  },
+  "kept": {
+    "train": 2375,
+    "validation": 713,
+    "test": 731
+  },
+  "duplicates_removed": {
+    "train": 13703,
+    "validation": 1214,
+    "test": 1270
+  },
+  "dedup_mode": "request"
+}
