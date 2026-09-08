@@ -18,9 +18,9 @@
     "test": 2001
   },
   "kept": {
-    "train": 2375,
-    "validation": 713,
-    "test": 731
+    "train": 2381,
+    "validation": 716,
+    "test": 735
   },
   "duplicates_removed": {
     "train": 13703,
