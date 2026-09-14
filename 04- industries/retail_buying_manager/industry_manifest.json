@@ -1,0 +1,18 @@
+{
+  "source_batches": [
+    "C:\\Dataset\\training\\dataset-for-train\\04- industries\\retail_buying_manager\\batch_01.jsonl",
+    "C:\\Dataset\\training\\dataset-for-train\\04- industries\\retail_buying_manager\\batch_02.jsonl",
+    "C:\\Dataset\\training\\dataset-for-train\\04- industries\\retail_buying_manager\\batch_03.jsonl",
+    "C:\\Dataset\\training\\dataset-for-train\\04- industries\\retail_buying_manager\\batch_04.jsonl",
+    "C:\\Dataset\\training\\dataset-for-train\\04- industries\\retail_buying_manager\\batch_05.jsonl"
+  ],
+  "source_rows": 1000,
+  "duplicate_ids_removed": 0,
+  "split": {
+    "train": 800,
+    "validation": 100,
+    "test": 100
+  },
+  "seed_method": "sha256(row_json)",
+  "raw_files_preserved": true
+}
